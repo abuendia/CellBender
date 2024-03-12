@@ -98,7 +98,7 @@ POSTERIOR_REG_SEARCH_MAX_ITER = 50
 MINIMUM_BARCODES_H5AD = 1e5
 
 # Batch size for posterior inference.
-PROB_POSTERIOR_BATCH_SIZE = 128
+PROB_POSTERIOR_BATCH_SIZE = 32
 
 # Name of checkpoint file.
 CHECKPOINT_FILE_NAME = 'ckpt.tar.gz'
@@ -107,7 +107,7 @@ CHECKPOINT_FILE_NAME = 'ckpt.tar.gz'
 EXTENDED_REPORT = False
 
 # Maximum batch size
-MAX_BATCH_SIZE = 256
+MAX_BATCH_SIZE = 32
 SMALLEST_ALLOWED_BATCH = 4  # BatchNorm chokes if there is only 1 cell in last batch
 
 # Guesses during prior estimation
